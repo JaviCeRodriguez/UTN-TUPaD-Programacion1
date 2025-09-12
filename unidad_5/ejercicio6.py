@@ -18,5 +18,5 @@ print('Lista despues:', nuevos_numeros)
 
 """
 Con slicing + concatenacion
-nuevos_numeros = numeros[rotacion_cantidad] + numeros[0:len(numeros) + rotacion_cantidad]
+nuevos_numeros = numeros[rotacion_cantidad:] + numeros[0:len(numeros) + rotacion_cantidad]
 """
